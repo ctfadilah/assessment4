@@ -20,25 +20,19 @@ test data.
 What your project does?
 - import packages
 - Data loading
-- Split data
-- Data inspection
-- Splitting the val_dataset into validation and test datasets
-- Convert the data set into prefetch dataset
-- Create a keras model for data augmentation
-- Test out the data augmentation model
-- Create a layer to perform the pixel standardization
-- Start to apply transfer learning
+- Convert the list of np array into a full np array
+- Data preprocessing
+- Convert the numpy array into tensorflow tensors
+- Combine features and labels together to form a zip dataset
+- Model development
 - Compile the model
-- Evaluate the model before training
+- Create functions to show predictions
+- Create a custom callback function to display results during model training
 - Create a TensorBoard callback object for the usage of TB
 - Model training
-- Proceed with the follow-up training
-- Recompile the model
-- Continue with the model training
-- Evaluate the final transfer learning model
 - Model deployment
 - Save the model
 
 Any challenges you face and how you solve them? 
-- Yes, the challenges that i face is big dataset to download and a bit confius to understand the question. But after read carefully, i can do it better.
+- Yes, the challenges that i face is a bit confius to understand the question. But after read carefully, i can do it better. Other than that, hard to create plot model.
 
